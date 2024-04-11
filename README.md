@@ -19,3 +19,9 @@ Supported tags: latest, 11-21.3.0, 11-21.2.0, 11-21.1.0
 - [Corretto 11](https://github.com/corretto/corretto-docker/blob/88df29474df6fc3f3f19daa8c5515d934f706cd0/11/jdk/al2/Dockerfile)
 - [GraalVM 21.3.0](https://github.com/graalvm/graalvm-ce-builds/releases/tag/vm-21.3.0)
 - Maven 3.6.3
+
+
+## Build
+
+    docker build --tag awslinux-graalvm .
+
